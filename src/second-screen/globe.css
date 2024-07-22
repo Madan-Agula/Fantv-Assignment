@@ -1,0 +1,431 @@
+.parent-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(42, 42, 43, 1);
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.globe-container {
+    width: 500px;
+    height: 500px;
+    position: relative;
+background-color: rgba(42, 42, 43, 1);
+}
+
+.circle-one {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 45px;
+    bottom: 55%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circle-one img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.circle-two {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 85px;
+    bottom: 68%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circle-two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.circle-three {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 135px;
+    bottom: 74%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circle-three svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.circle-four {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+     background-color: rgba(42, 42, 43, 1); 
+    border: 1px solid rgba(173, 255, 228, 1);
+    position: absolute;
+    left: 195px;
+    bottom: 78%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-four-inner {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgba(197, 255, 115, 1);
+}
+
+.circle-five {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 225px;
+    bottom: 76%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circle-five svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circle-six {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 300px;
+    bottom: 70%;
+    z-index: 3;
+}
+
+.circle-six svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circle-seven {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+background-color: rgba(42, 42, 43, 1);  
+    position: absolute;
+    left: 345px;
+    bottom: 55%;
+    z-index: 3;
+}
+
+.circle-seven svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circle-eight {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(42, 42, 43, 1);
+    border: 1px solid rgba(254, 155, 243, 1);
+    position: absolute;
+    left: 365px;
+    bottom: 47%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-eight-inner {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgba(254, 155, 243, 1);
+}
+
+.circle-nine {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 345px;
+    bottom: 34%;
+    z-index: 3;
+}
+
+.circle-nine svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circle-ten {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+background-color: rgba(42, 42, 43, 1);
+    border: 1px solid rgb(54, 65, 62);
+    position: absolute;
+    left: 50px;
+    bottom: 42%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-ten-inner {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgba(173, 255, 228, 1);
+}
+
+.circle-eleven {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: (217, 217, 217, 1);
+    position: absolute;
+    left: 65px;
+    bottom: 27%;
+    z-index: 3;
+}
+
+.circle-eleven svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circle-twelve {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 95px;
+    bottom: 80%;
+    z-index: 3;
+}
+
+.circle-twelve svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circle-thirteen {
+    width: 50px;
+    /* increased size for better fit */
+    height: 50px;
+    /* increased size for better fit */
+    border-radius: 50%;
+    position: absolute;
+    left: 280px;
+    /* adjusted for centering */
+    bottom: 75%;
+    /* adjusted for centering */
+    z-index: 3;
+    display: flex;
+    /* added flexbox for centering */
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+    /* center vertically */
+    overflow: hidden;
+    /* ensure no overflow */
+}
+
+.circle-thirteen svg {
+    width: 80%;
+    /* adjusted size to fit within the circle */
+    height: 80%;
+    /* adjusted size to fit within the circle */
+    object-fit: cover;
+}
+
+.circle-fourteen {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    bottom: 20%;
+    z-index: 3;
+}
+
+.circle-fourteen svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circle-fifteen {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px dotted rgba(173, 255, 228, 1);
+    position: absolute;
+    left: 35px;
+    bottom: 22%;
+    z-index: 3;
+}
+
+.circle-sixteen {
+    width: 60px;
+    /* increased from 30px to 60px */
+    height: 60px;
+    /* increased from 30px to 60px */
+    border-radius: 50%;
+    position: absolute;
+background-color: rgba(42, 42, 43, 1);
+    left: 395px;
+    bottom: 60%;
+    z-index: 3;
+}
+
+.circle-sixteen svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circle-seventeen {
+    width: 60px;
+    /* increased from 30px to 60px */
+    height: 60px;
+    /* increased from 30px to 60px */
+background-color: rgba(42, 42, 43, 1);
+    border-radius: 50%;
+    position: absolute;
+    left: 350px;
+    bottom: 65%;
+    z-index: 3;
+}
+
+.circle-seventeen svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.circle-eighteen {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px dotted rgb(190, 235, 220);
+    left: 365px;
+    bottom: 60%;
+    z-index: 3;
+}
+
+.circle-nineteen {
+    width: 50px;
+    /* Increased size */
+    height: 50px;
+    /* Increased size */
+    border-radius: 50%;
+
+    position: absolute;
+    left: 335px;
+    bottom: 80%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-nineteen svg {
+    width: 80%;
+    /* Adjusted size to fit within the circle */
+    height: 80%;
+    /* Adjusted size to fit within the circle */
+    object-fit: cover;
+    display: block;
+}
+
+.inner-rectangle {
+    width: 90%;
+    height: 80%;
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.dotted-line-around {
+    width: 70%;
+    height: 60%;
+    border: 2px dotted rgba(173, 255, 228, 1);
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.inner-inner-rectangle {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.inner-inner-rectangle svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
